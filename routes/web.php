@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('home', compact('artists'));
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+
 // Публичная страница артиста
 Route::get('/artists/{artist}', function (Artist $artist) {
     $artist->load(['products' => function ($q) {

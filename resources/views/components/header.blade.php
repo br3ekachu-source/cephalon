@@ -28,7 +28,7 @@
     </nav>
     <div class="header-contact">
         <nav>
-            <a href="mailto:merch@cephalon.company">CONTACT</a>
+            <a href="{{ route('contact') }}">CONTACT</a>
         </nav>
     </div>
         <div class="burger-menu" onclick="toggleBurger()">
@@ -70,7 +70,7 @@
                 <a href="/" class="burger-nav-item">HOME</a>
                 <a href="https://t.me/CEPHALONVTUBE" target="_blank" class="burger-nav-item">VTUBE</a>
                 <a href="https://t.me/cephalonLBL" target="_blank" class="burger-nav-item">LABEL</a>
-                <a href="mailto:merch@cephalon.company" class="burger-nav-item">CONTACT</a>
+                <a href="{{ route('contact') }}" class="burger-nav-item">CONTACT</a>
             </div>
         </div>
     </div>

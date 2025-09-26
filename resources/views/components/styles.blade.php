@@ -97,15 +97,16 @@ header { width: 100%; height: auto; position: relative; }
     height: 216px; 
 }
 .burger-nav-item { 
-    font-family: 'Arges', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; 
+    font-family: 'Geist Mono', monospace; 
     font-style: normal; 
-    font-weight: 1000; 
-    font-size: 39.81px; 
-    line-height: 48px; 
+    font-weight: 600; 
+    font-size: 19.2px; 
+    line-height: 16.8px; 
     display: flex; 
     align-items: center; 
+    justify-content: center;
     text-align: center; 
-    letter-spacing: 0.014em; 
+    letter-spacing: 0.06px; 
     text-transform: uppercase; 
     color: #000000; 
     text-decoration: none; 
@@ -130,7 +131,7 @@ header { width: 100%; height: auto; position: relative; }
     .burger-menu { display: flex; }
     .header-container { padding: 26px 24px 16px; max-width: none; height: 95px; }
 }
-nav a { color: var(--muted); text-decoration:none; margin-left:16px; font-family: 'Geist Mono', monospace; font-size: 19.2px; font-weight: 400; line-height: 16.8px; letter-spacing: 0.06px; text-transform: uppercase; vertical-align: middle; }
+nav a { color: var(--muted); text-decoration:none; margin-left:16px; font-family: 'Geist Mono', monospace; font-size: 19.2px; font-weight: 600; line-height: 16.8px; letter-spacing: 0.06px; text-transform: uppercase; vertical-align: middle; }
 nav a:hover { color: #fff; }
 .hero { text-align:center; padding:48px 0 24px; }
 .hero h1 { font-family: 'Arges', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; font-size: 120px; line-height: 100%; letter-spacing: 0.64px; margin: 50px 0 8px; font-weight: normal; text-transform: uppercase; }

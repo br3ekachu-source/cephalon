@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ $artist->name }} — Артист</title>
-    <link rel="icon" href="/favicon.ico">
+    <title>{{ $artist->name }}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
         @include('components.styles')
         .hero { text-align:center; padding:48px 0 24px; }

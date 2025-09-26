@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin Panel — Home</title>
-    <link rel="icon" href="/favicon.ico">
+    <title>CEPHALON</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
         @include('components.styles')
         .grid { display:grid; gap: 56px 16px; }
