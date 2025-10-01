@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProxyController;
 use App\Models\Artist;
 use App\Models\Product;
 use Illuminate\Support\Facades\Route;
@@ -29,6 +30,11 @@ Route::get('/artists/{artist}', function (Artist $artist) {
 })->name('public.artist');
 
 // Публичная страница товара не требуется — переход сразу по внешней ссылке
+
+// Проксирование для Tilda сайта
+Route::any('/dabbackwood/{path?}', [ProxyController::class, 'proxy'])
+    ->where('path', '.*')
+    ->name('proxy.dabbackwood');
 
 // API маршруты (с префиксом /api), чтобы не конфликтовать с публичными страницами
 Route::prefix('api')->group(function () {
